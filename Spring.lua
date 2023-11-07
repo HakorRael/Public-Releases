@@ -45,11 +45,11 @@ function SpringModule.Create(self, Mass, Force, Damping, Speed)
 		end
 		
 		local EndVector = Vector3.new(X, Y, Z)
-		self.Velocity = self.Velocity + (curr_Delta * 60) * EndVector -- * (reelDelta * 60)
+		self.Velocity = self.Velocity + (curr_Delta * 60) * EndVector
 	end
 
 	function Spring.Update(self, Delta)
-		local ScaledDeltaTime = Delta * self.Speed / Iterations -- math.min(Delta, 1) *
+		local ScaledDeltaTime = Delta * self.Speed / Iterations
 		curr_Delta = Delta
 		
 		for Index = 1, Iterations do
