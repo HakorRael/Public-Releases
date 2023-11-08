@@ -1,5 +1,5 @@
 --[[
-	Hello! This spring module was originally made by BlackShibe but was FPS dependant so I (ONXXF on roblox, d9d3 on discord) edited it to make it work at any FPS
+	Hello! This spring module was originally made by x_o but was FPS dependant so I (ONXXF on roblox, d9d3 on discord) edited it to make it work at any FPS
 	DevForum post: https://devforum.roblox.com/t/modified-spring-module/2690943
 --]]
 
